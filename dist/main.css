@@ -1,0 +1,93 @@
+.teamhover {
+  border-radius: .7rem;
+}
+
+.teamhover:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  background-color: #1a202c;
+  color: #edf2f7;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.teamhover:hover h2 {
+  color: gray;
+}
+
+.gensec {
+  border-radius: .7rem;
+  background-color: #1a202c;
+  color: #edf2f7;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.gensec h2 {
+  color: gray;
+}
+
+.navbutton {
+  border-radius: .7rem;
+}
+
+.navbutton:hover {
+  background-color: #1a202c;
+  color: #edf2f7;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.expandhover {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.expandhover:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  background-color: whitesmoke;
+}
+
+.expandhover:hover h3 {
+  font-weight: 600;
+}
+
+.expandhover:hover h2 {
+  color: black;
+}
+
+.expandhover:hover p {
+  color: #1a202c;
+}
+
+.expandhoverBig {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.expandhoverBig:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.society {
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.society:hover {
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  background-color: #1a202c;
+  color: #edf2f7;
+}
+
+.society:hover h2 {
+  color: gray;
+}
+/*# sourceMappingURL=main.css.map */

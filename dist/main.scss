@@ -1,0 +1,71 @@
+.teamhover{
+    border-radius: .7rem;
+&:hover{
+    transform: scale(.9);
+    background-color: #1a202c;
+    color:#edf2f7;
+    transition: all 1s ease;
+    h2{
+        color: gray;
+    }
+   
+}
+}
+
+.gensec{
+    border-radius: .7rem;
+    background-color: #1a202c;
+    color:#edf2f7;
+    transition: all 1s ease;
+    h2{
+        color: gray;
+    }
+}
+
+.navbutton{
+    border-radius: .7rem;
+    &:hover{
+        background-color: #1a202c;
+        color:#edf2f7;
+        transition: all 1s ease;
+       
+    }
+}
+
+.expandhover{
+    transition: all .4s ease-in-out;
+    &:hover{
+        transform: scale(1.07);
+        transition: all .4s ease;
+        background-color: whitesmoke;
+        h3{
+            font-weight: 600;
+        }
+        h2{
+            color: black;
+        }
+        p{
+            color: #1a202c;
+        }
+    }
+}
+
+.expandhoverBig{
+    transition: all .4s ease-in-out;
+    &:hover{
+        transform: scale(1.04);
+        transition: all .4s ease;
+    }
+}
+
+.society{
+    transition: all .4s ease;
+    &:hover{
+        transition: all .4s ease;
+        background-color: #1a202c;
+        color:#edf2f7;
+        h2{
+            color: gray;
+        }
+    }
+}
