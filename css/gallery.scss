@@ -24,10 +24,10 @@
     color:white;
     margin-bottom: 30px;
     margin-top: 5px;
+    transition: all .5s ease;
 
     &:hover
 {   
-    transition: all .5s ease;
     background-color: white;
     color: black;
     border: 1px solid black ;
@@ -43,9 +43,8 @@
 .gallery_product
 {
     margin-bottom: 30px;
-
     &:hover{
-        transition: all .3s ease;
+        transition: all .4s ease;
         transform: scale(1.1);
     }
 }

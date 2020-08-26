@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     if(value == "all")
     {
-            $('.filter').show('1000');
+            $('.filter').fadeIn('3000');
     }
     else
     {

@@ -24,11 +24,11 @@
   color: white;
   margin-bottom: 30px;
   margin-top: 5px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .filter-button:hover {
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
   background-color: white;
   color: black;
   border: 1px solid black;
@@ -43,8 +43,8 @@
 }
 
 .gallery_product:hover {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
