@@ -1,8 +1,9 @@
 .gallery-title {
-  font-size: 36px;
-  color: black;
+  font-size: 46px;
+  color: white;
   text-align: center;
   font-weight: 500;
+  padding: 1rem;
   margin-bottom: 70px;
 }
 
@@ -11,14 +12,13 @@
   position: absolute;
   width: 7.5%;
   left: 46.5%;
-  height: 45px;
-  border-bottom: 1px solid #5e5e5e;
+  height: 60px;
+  border-bottom: 1.5px solid #8c96ce;
 }
 
 .filter-button {
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 5px;
-  border: 1px solid white;
   text-align: center;
   background-color: black;
   color: white;
@@ -38,6 +38,10 @@
   width: 100%;
 }
 
+img {
+  border-radius: 8px;
+}
+
 .gallery_product {
   margin-bottom: 30px;
 }
@@ -51,8 +55,18 @@
 
 .subtitle {
   margin: 30px;
+  color: grey;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
   justify-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.selected {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=gallery.css.map */

@@ -1,6 +1,7 @@
 $(document).ready(function(){
-    $(".filter-button").click(function(){
-
+    $(".btn").click(function(){
+    $(".btn").removeClass('selected');
+    $(this).addClass('selected');
     var value = $(this).attr('data-filter');
 
     if(value == "all")
@@ -9,13 +10,9 @@ $(document).ready(function(){
     }
     else
     {
-        $(".filter").not('.'+value).hide('3000');
-        $('.filter').filter('.'+value).show('3000');
+        $(".filter").not('.'+value).fadeOut('3000');
+        $('.filter').filter('.'+value).fadeIn('3000');
         
     }
 });
-    if ($(".filter-button").removeClass("active")) {
-    $(this).removeClass("active");
-    }
-    $(this).addClass("active");
-    });
+});
