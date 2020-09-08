@@ -1,5 +1,5 @@
 .teamhover {
-  border-radius: .7rem;
+  border-radius: 0.7rem;
 }
 
 .teamhover:hover {
@@ -16,7 +16,7 @@
 }
 
 .gensec {
-  border-radius: .7rem;
+  border-radius: 0.7rem;
   background-color: #1a202c;
   color: #edf2f7;
   -webkit-transition: all 1s ease;
@@ -29,7 +29,7 @@
 
 .navbutton {
   background-color: white;
-  border-radius: .7rem;
+  border-radius: 0.7rem;
 }
 
 .navbutton:hover {
@@ -40,15 +40,15 @@
 }
 
 .expandhover {
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .expandhover:hover {
   -webkit-transform: scale(1.07);
           transform: scale(1.07);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   background-color: whitesmoke;
 }
 
@@ -65,25 +65,25 @@
 }
 
 .expandhoverBig {
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .expandhoverBig:hover {
   -webkit-transform: scale(1.04);
           transform: scale(1.04);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .society {
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .society:hover {
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   background-color: #1a202c;
   color: #edf2f7;
 }
@@ -102,5 +102,11 @@ body {
 
 .bgcolor {
   background-color: #0c1018;
+}
+
+.gridSass {
+  overflow: auto;
+  padding: 2.2em;
+  height: 50vh;
 }
 /*# sourceMappingURL=main.css.map */

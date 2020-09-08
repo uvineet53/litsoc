@@ -1,88 +1,88 @@
-.teamhover{
-    border-radius: .7rem;
-&:hover{
-    transform: scale(.9);
+.teamhover {
+  border-radius: 0.7rem;
+  &:hover {
+    transform: scale(0.9);
     background-color: #1a202c;
-    color:#edf2f7;
+    color: #edf2f7;
     transition: all 1s ease;
-    h2{
-        color: gray;
+    h2 {
+      color: gray;
     }
-   
-}
+  }
 }
 
-.gensec{
-    border-radius: .7rem;
+.gensec {
+  border-radius: 0.7rem;
+  background-color: #1a202c;
+  color: #edf2f7;
+  transition: all 1s ease;
+  h2 {
+    color: gray;
+  }
+}
+
+.navbutton {
+  background-color: white;
+  border-radius: 0.7rem;
+  &:hover {
     background-color: #1a202c;
-    color:#edf2f7;
+    color: #edf2f7;
     transition: all 1s ease;
-    h2{
-        color: gray;
+  }
+}
+
+.expandhover {
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.07);
+    transition: all 0.4s ease;
+    background-color: whitesmoke;
+    h3 {
+      font-weight: 600;
     }
-}
-
-.navbutton{
-    background-color: white;
-    border-radius: .7rem;
-    &:hover{
-        background-color: #1a202c;
-        color:#edf2f7;
-        transition: all 1s ease;
-       
+    h2 {
+      color: black;
     }
-}
-
-.expandhover{
-    transition: all .4s ease-in-out;
-    &:hover{
-        transform: scale(1.07);
-        transition: all .4s ease;
-        background-color: whitesmoke;
-        h3{
-            font-weight: 600;
-        }
-        h2{
-            color: black;
-        }
-        p{
-            color: #1a202c;
-        }
+    p {
+      color: #1a202c;
     }
+  }
 }
 
-.expandhoverBig{
-    transition: all .4s ease-in-out;
-    &:hover{
-        transform: scale(1.04);
-        transition: all .4s ease;
+.expandhoverBig {
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+    transition: all 0.4s ease;
+  }
+}
+
+.society {
+  transition: all 0.4s ease;
+  &:hover {
+    transition: all 0.4s ease;
+    background-color: #1a202c;
+    color: #edf2f7;
+    h2 {
+      color: gray;
     }
+  }
 }
 
-.society{
-    transition: all .4s ease;
-    &:hover{
-        transition: all .4s ease;
-        background-color: #1a202c;
-        color:#edf2f7;
-        h2{
-            color: gray;
-        }
-    }
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
-
-
-  body{
-    width:  100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+.bgcolor {
+  background-color: rgb(12, 16, 24);
 }
 
-
-
-.bgcolor{
-    background-color: rgb(12, 16, 24);
+.gridSass {
+  overflow: auto;
+  padding: 2.2em;
+  height: 50vh;
 }
